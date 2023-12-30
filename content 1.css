@@ -1,0 +1,80 @@
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(1, 23, 23);
+    width: 400px;
+    height: 400px;
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(65, 77, 77);
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+.best{
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.best div{
+    display: flex;
+    justify-content: center;
+}
+
+.best div p{
+   margin: 1rem 2rem;
+   font-size: 1.2rem;
+}
+
+.best .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+.best .img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .best{
+        margin: 1rem 0;
+    }
+    .best div p
+    {
+        margin: 1rem;
+        font-size:1rem ;
+    }
+    .best .container{
+        grid-template-columns:1fr ;
+        grid-gap:.5rem;
+    }
+}
+
+@media screen and (max-width:478px) {
+    .best div p
+    {
+        margin: 1rem .5rem;
+    }
+}
+

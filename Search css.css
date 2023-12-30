@@ -1,0 +1,20 @@
+.search{
+    display: flex;
+    background-color: #fff;
+    color: #fff;
+    justify-content: space-between;
+    max-width: 220px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.search input[type=text] {
+    border:3px transparent;
+    background-color: transparent;
+    width: 150px;
+    font-family: 'Raleway';
+    outline: none;
+}
+
